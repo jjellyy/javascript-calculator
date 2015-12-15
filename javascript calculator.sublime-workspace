@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"background-",
+				"background-color"
+			],
+			[
+				"operator",
+				"operatorClicked"
+			],
+			[
+				"scren",
+				"screendiv"
+			],
+			[
 				"list-",
 				"list-style-type"
 			],
@@ -19,7 +31,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3718,
+				"buffer_size": 3969,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 3918,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/index.js",
+			"settings":
+			{
+				"buffer_size": 3850,
 				"line_ending": "Unix"
 			}
 		}
@@ -48,6 +76,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Catherine/Desktop/Pomodoro Clock/pomodoro.html",
 		"/C/Users/Catherine/Desktop/Pomodoro Clock/scripts.js",
 		"/C/Users/Catherine/Desktop/Pomodoro Clock/pomodoro.js",
 		"/C/Users/Catherine/Desktop/Pomodoro Clock/pomodoro.css",
@@ -79,7 +108,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -93,6 +122,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"testNumLength",
+			"debug",
+			"parseInt"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -100,6 +132,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"parseFloat"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -110,7 +143,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -118,20 +151,76 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3718,
+						"buffer_size": 3969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1653,
-								1653
+								3699,
+								3699
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 3918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/index.js",
+					"settings":
+					{
+						"buffer_size": 3850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -177,7 +266,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
