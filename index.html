@@ -2,7 +2,8 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>A Pen by  catherine</title>
+    <title>Javascript Calculator</title>
+    <meta name="description" content="A Calculator">
     <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
@@ -14,7 +15,9 @@
 
     
     
-    
+    <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
   </head>
 
   <body>
@@ -27,7 +30,7 @@
           ELECTRONIC CALCULATOR
         </div>
         <div class="col-xs-10 col-xs-offset-1" id="screen">
-          0
+          <span id="screen-number">0</span>
         </div>
         <div class="col-xs-3 left">
           <button class="clearall" id="white">AC</button>
@@ -39,7 +42,7 @@
           <!--<button class="percent">%</button>-->
         </div>
         <div class="col-xs-3 right">
-          <button class="operator divide">&divide;</button>
+          <button class="operator divide" id="white">&divide;</button>
         </div>
         <div class="col-xs-3 left">
           <button class="number">7</button>
@@ -51,7 +54,7 @@
           <button class="number">9</button>
         </div>
         <div class="col-xs-3 right">
-          <button class="operator multiply"><span class='glyphicon glyphicon-remove'></span></button>
+          <button class="operator multiply" id="white"><span class='glyphicon glyphicon-remove'></span></button>
         </div>
         <div class="col-xs-3 left">
           <button class="number">4</button>
@@ -63,7 +66,7 @@
           <button class="number">6</button>
         </div>
         <div class="col-xs-3 right">
-          <button class="operator minus"><span class='glyphicon glyphicon-minus'></span></button>
+          <button class="operator minus" id="white"><span class='glyphicon glyphicon-minus'></span></button>
         </div>
         <div class="col-xs-3 left">
           <div class="row">
@@ -91,12 +94,12 @@
               <button class="number">3</button>
             </div>
             <div class="col-xs-12 bottom-three">
-              <button class="equals">=</button>
+              <button class="equals" id="white">=</button>
             </div>
           </div>
         </div>
         <div class="col-xs-3 right">
-          <button class="plus operator"><span class='glyphicon glyphicon-plus'></span></button>
+          <button class="plus operator" id="white"><span class='glyphicon glyphicon-plus'></span></button>
         </div>
       </div>
     </section>
